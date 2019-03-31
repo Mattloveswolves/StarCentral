@@ -1,0 +1,124 @@
+/*General Stuff*/
+body{
+    background-color:#364543; /*Make a background image based on space and art*/
+    margin:0;
+    text-align:center;
+}
+
+div {
+    box-sizing:border-box;
+}
+
+/* Header/Footer stuff*/
+
+#header{
+    text-align: center;
+    background-image:radial-gradient(circle, cyan, darkcyan); 
+    background-size:cover;
+    padding:2%;
+    Margin:0;
+   
+}
+#footer{
+        text-align: center;
+    background-color:darkcyan;
+    Margin:0;
+    padding:0.5%;
+    color:white;
+}
+     
+/* Nav Bar stuff*/
+
+#navbar{
+    background-image:linear-gradient(lightgray,gray);
+    font-size: 25px;
+    font-family: 'Coiny', cursive;
+    font-weight: 600;
+}
+
+.nav{
+    list-style-type: none;
+    margin-top:0;
+    margin-bottom:0;
+    padding-left:0;
+}    
+.nav li{ 
+    text-align: center;
+    display: inline-block;
+   line-height: 3;
+    
+}
+.nav li a {
+   padding: 0 20px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+	transition: all .2s;
+}
+
+.nav li a:hover{
+    background-color:darkgrey;
+    color: red;
+    transition: all .2s;
+}
+
+/* Divs */
+
+#content{
+    background-color:lightgray;
+    margin: 0% 15% 0;
+    padding: 2% 5%;
+}
+
+/*classes for positioning, size, and others*/
+.FR{
+    float:right;
+}
+
+.FL{
+    float:left;
+}
+.content{
+    padding: 10px 20px;
+}
+
+.ph{  /*Place holder image tag*/
+    background-image:url("https://www.blakleysflooring.com/wp-content/uploads/2016/03/Placeholder.png");
+    background-size:cover;
+  
+    padding:5%;
+    margin:0;
+}
+
+.full-height{
+    height:150vh;
+}
+
+.half-height {
+    height: 50vh;
+}
+.half-width {
+    width: 40%;
+}
+
+/*Gallery Div*/
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
