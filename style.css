@@ -71,11 +71,11 @@ div {
 }
 
 /*classes for positioning, size, and others*/
-.FR{
+.fr{
     float:right;
 }
 
-.FL{
+.fl{
     float:left;
 }
 .content{
@@ -87,7 +87,7 @@ div {
     background-size:cover;
   
     padding:5%;
-    margin:0;
+  
 }
 
 .full-height{
@@ -100,6 +100,7 @@ div {
 .half-width {
     width: 40%;
 }
+
 
 /*Gallery Div*/
 div.gallery {
