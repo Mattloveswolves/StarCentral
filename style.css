@@ -1,6 +1,7 @@
 /*General Stuff*/
 body{
-    background-color:#364543; /*Make a background image based on space and art*/
+    background-image:url("http://www.1zoom.net/big2/261/311540-Sepik.jpg");
+    /*Make a background image based on space and art*/
     margin:0;
     text-align:center;
 }
@@ -8,31 +9,48 @@ body{
 div {
     box-sizing:border-box;
 }
+h2{
+    font-size:40px;
+}
+h2,p{
+    font-family: 'Bitter', serif;
+    color:#b0dce5;
+}
 
 /* Header/Footer stuff*/
 
 #header{
+    color:#1E5A77;
     text-align: center;
     background-image:radial-gradient(circle, cyan, darkcyan); 
     background-size:cover;
     padding:2%;
     Margin:0;
-   
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+    font-family: 'Bitter', serif;
+    font-size:20px;
 }
+
 #footer{
         text-align: center;
-    background-color:darkcyan;
+    background-color:#5C7FA8;
     Margin:0;
     padding:0.5%;
     color:white;
+    font-family: 'Kanit', sans-serif;
+    
 }
      
+
+
+
 /* Nav Bar stuff*/
 
 #navbar{
     background-image:linear-gradient(lightgray,gray);
     font-size: 25px;
-    font-family: 'Coiny', cursive;
+    font-family: 'Bitter', serif;
     font-weight: 600;
 }
 
@@ -62,16 +80,23 @@ div {
     transition: all .2s;
 }
 
+
+
+
 /* Divs */
 
 #content{
     background-color:lightgray;
     margin: 0% 15% 0;
     padding: 2% 5%;
+    background:rgba(124, 147, 175,0.6)
 }
 
+
+
+
 /*classes for positioning, size, and others*/
-.fr{
+.fr{/* be more descriptive with these tags*/
     float:right;
 }
 
@@ -100,6 +125,12 @@ div {
 .half-width {
     width: 40%;
 }
+.titlepositioning{
+    padding-top:5%;
+    padding-bottom:10%;
+}
+
+
 
 
 /*Gallery Div*/
@@ -107,7 +138,7 @@ div.gallery {
   margin: 5px;
   border: 1px solid #ccc;
   float: left;
-  width: 180px;
+  width: 200px;
 }
 
 div.gallery:hover {
