@@ -12,7 +12,10 @@ div {
 h2{
     font-size:40px;
 }
-h2,p{
+h3{
+    font-size:30px;
+}
+h2,h3,p{
     font-family: 'Bitter', serif;
     color:#b0dce5;
 }
@@ -96,11 +99,11 @@ h2,p{
 
 
 /*classes for positioning, size, and others*/
-.fr{/* be more descriptive with these tags*/
+.floatright{/* be more descriptive with these tags*/
     float:right;
 }
 
-.fl{
+.floatleft{
     float:left;
 }
 .content{
@@ -123,14 +126,19 @@ h2,p{
     height: 50vh;
 }
 .half-width {
-    width: 40%;
+    width: 45%;
 }
 .titlepositioning{
     padding-top:5%;
     padding-bottom:10%;
 }
 
-
+.background{
+    background:rgba(124, 147, 175,0.8);  
+}
+.contactspacing{
+    padding-top:10%;
+}
 
 
 /*Gallery Div*/
