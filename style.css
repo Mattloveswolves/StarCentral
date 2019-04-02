@@ -1,6 +1,7 @@
 /*General Stuff*/
 body{
     background-image:url("http://www.1zoom.net/big2/261/311540-Sepik.jpg");
+    background-size: cover;
     /*Make a background image based on space and art*/
     margin:0;
     text-align:center;
@@ -15,9 +16,14 @@ h2{
 h3{
     font-size:30px;
 }
-h2,h3,p{
+h2,h3{
     font-family: 'Bitter', serif;
     color:#b0dce5;
+}
+p{
+    font-family: 'Kanit', sans-serif;
+    font-size:20px;
+    color:black;
 }
 
 /* Header/Footer stuff*/
@@ -45,6 +51,15 @@ h2,h3,p{
     
 }
      
+
+/* Divs */
+
+#content{
+    background-color:lightgray;
+    margin: 0% 15% 0;
+    padding: 2% 5%;
+    background:rgba(124, 147, 175,0.7)
+}
 
 
 
@@ -86,15 +101,6 @@ h2,h3,p{
 
 
 
-/* Divs */
-
-#content{
-    background-color:lightgray;
-    margin: 0% 15% 0;
-    padding: 2% 5%;
-    background:rgba(124, 147, 175,0.6)
-}
-
 
 
 
@@ -110,14 +116,9 @@ h2,h3,p{
     padding: 10px 20px;
 }
 
-.ph{  /*Place holder image tag*/
-    background-image:url("https://www.blakleysflooring.com/wp-content/uploads/2016/03/Placeholder.png");
-    background-size:cover;
-  
-    padding:5%;
-  
+.extra-height{
+     height:300vh;
 }
-
 .full-height{
     height:150vh;
 }
@@ -137,28 +138,39 @@ h2,h3,p{
     background:rgba(124, 147, 175,0.8);  
 }
 .contactspacing{
-    padding-top:10%;
+    padding-top:1%;
 }
-
+.footerlogolimit{
+    width: 10%;
+    height:auto;
+}
+.widthheightlimit{
+    width:100%;
+    height:auto;
+}
 
 /*Gallery Div*/
 div.gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 200px;
+    margin: 50px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 200px;
 }
 
 div.gallery:hover {
-  border: 1px solid #777;
+    border: 1px solid #777;
 }
 
 div.gallery img {
-  width: 100%;
-  height: auto;
+    width: 100%;
+    height: auto;
 }
 
 div.desc {
-  padding: 15px;
-  text-align: center;
+    padding: 15px;
+    text-align: center;
+}
+/*image tags*/
+img.rotate{
+    transform:rotate(90deg);
 }
